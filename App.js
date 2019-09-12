@@ -1,7 +1,7 @@
 import { createAppContainer } from "react-navigation";
 import { createStackNavigator } from "react-navigation-stack";
 
-import HomePage from './src/HomePage';
+import HomePage from './src/pages/HomePage';
 
 const StackNavigator = createStackNavigator({
   'Main': {
@@ -9,15 +9,14 @@ const StackNavigator = createStackNavigator({
   }
 }, {
   defaultNavigationOptions: {
-    title: 'Contatos',
+    title: 'Caravane',
     headerTitleStyle: {
-      color: 'white',
-      fontSize: 30,
+      color: 'black',
+      fontSize: 42,
       flexGrow: 1,
-      textAlign: 'center'
     },
     headerStyle: {
-      backgroundColor: '#6ca2f7',
+      backgroundColor: '#e6e6ea',
       borderBottomWidth: 1,
       borderBottomColor: '#C5C5C5'
     }
