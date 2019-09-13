@@ -2,10 +2,18 @@ import { createAppContainer } from "react-navigation";
 import { createStackNavigator } from "react-navigation-stack";
 
 import HomePage from './src/pages/HomePage';
+import SearchPage from './src/pages/SearchPage';
+import ListPage from './src/pages/ListPage';
 
 const StackNavigator = createStackNavigator({
   'Main': {
     screen: HomePage
+  },
+  'SearchPage': {
+    screen: SearchPage
+  },
+  'ListPage': {
+    screen: ListPage
   }
 }, {
   defaultNavigationOptions: {
