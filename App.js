@@ -8,6 +8,7 @@ import TripPage from "./src/pages/TripPage";
 import BuyPage from "./src/pages/BuyPage";
 import LoginPage from "./src/pages/user/LoginPage";
 import SignUpPage from "./src/pages/user/SignUpPage";
+import NewTripPage from './src/pages/NewTripPage';
 
 const StackNavigator = createStackNavigator({
   'Main': {
@@ -30,6 +31,9 @@ const StackNavigator = createStackNavigator({
   },
   'SignUpPage': {
     screen: SignUpPage
+  },
+  'NewTripPage': {
+    screen: NewTripPage
   }
 }, {
   defaultNavigationOptions: {

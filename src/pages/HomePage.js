@@ -54,6 +54,7 @@ class HomePage extends Component<Props> {
                     </Section>
                 </Container>
                 <View>
+                    <Button title={'Cadastrar Caravana'} onPress={() => this.props.navigation.navigate('NewTripPage')} />
                     <Button title={'Fazer login'} onPress={() => this.props.navigation.navigate('LoginPage')} />
                     <Button title={'Registrar-me'} onPress={() => this.props.navigation.navigate('SignUpPage')} />
                 </View>
