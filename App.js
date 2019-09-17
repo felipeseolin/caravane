@@ -4,6 +4,10 @@ import { createStackNavigator } from "react-navigation-stack";
 import HomePage from './src/pages/HomePage';
 import SearchPage from './src/pages/SearchPage';
 import ListPage from './src/pages/ListPage';
+import TripPage from "./src/pages/TripPage";
+import BuyPage from "./src/pages/BuyPage";
+import LoginPage from "./src/pages/user/LoginPage";
+import SignUpPage from "./src/pages/user/SignUpPage";
 
 const StackNavigator = createStackNavigator({
   'Main': {
@@ -14,6 +18,18 @@ const StackNavigator = createStackNavigator({
   },
   'ListPage': {
     screen: ListPage
+  },
+  'TripPage': {
+    screen: TripPage
+  },
+  'BuyPage': {
+    screen: BuyPage
+  },
+  'LoginPage': {
+    screen: LoginPage
+  },
+  'SignUpPage': {
+    screen: SignUpPage
   }
 }, {
   defaultNavigationOptions: {

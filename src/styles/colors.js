@@ -18,5 +18,23 @@ export default StyleSheet.create({
     },
     gray: {
         color: '#e6e6ea'
-    }
+    },
+    backDark: {
+        backgroundColor: '#363636'
+    },
+    backLight: {
+        backgroundColor: '#f4f4f8'
+    },
+    backRed: {
+        backgroundColor: '#fe4a49'
+    },
+    backBlue: {
+        backgroundColor: '#2ab7ca'
+    },
+    backYellow: {
+        backgroundColor: '#fed766'
+    },
+    backGray: {
+        backgroundColor: '#e6e6ea'
+    },
 });

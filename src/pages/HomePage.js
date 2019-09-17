@@ -53,6 +53,10 @@ class HomePage extends Component<Props> {
                         <Card title={'Rio de Janeiro'}>Pão de Açúcar</Card>
                     </Section>
                 </Container>
+                <View>
+                    <Button title={'Fazer login'} onPress={() => this.props.navigation.navigate('LoginPage')} />
+                    <Button title={'Registrar-me'} onPress={() => this.props.navigation.navigate('SignUpPage')} />
+                </View>
             </ScrollView>
         );
     }
