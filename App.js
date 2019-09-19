@@ -36,6 +36,12 @@ const StackNavigator = createStackNavigator({
     screen: NewTripPage
   }
 }, {
+  navigationOptions: {
+    headerStyle: {
+      backgroundColor: '#DA552F'
+    },
+    headerTintColor: "#FFF",
+  },
   defaultNavigationOptions: {
     title: 'Caravane',
     headerTitleStyle: {
