@@ -5,7 +5,10 @@
   "scripts": {
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "build:web": "expo build:web",
+    "build:android": "expo build:android",
+    "build:ios": "expo build:ios"
   },
   "dependencies": {
     "jetifier": "^1.6.4",
